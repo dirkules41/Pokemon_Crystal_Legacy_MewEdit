@@ -18,9 +18,9 @@ jobs:
         sudo apt update
         sudo apt install -y make git build-essential pkg-config libpng-dev
 
-    - name: Install RGBDS
+    - name: Install RGBDS v0.5.2
       run: |
-        git clone https://github.com/gbdev/rgbds.git
+        git clone --branch v0.5.2 https://github.com/gbdev/rgbds.git
         cd rgbds
         make
         sudo make install
