@@ -32,5 +32,5 @@ jobs:
     - name: Upload compiled ROM
       uses: actions/upload-artifact@v4
       with:
-        name: crystallegacy
+        name: crystallegacy_SpecialMewEdition
         path: crystallegacy_SpecialMewEdition.gbc
