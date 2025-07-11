@@ -1,4 +1,4 @@
-name: Build Pokémon Crystal ROM
+name: Build Pokémon Crystal Legacy ROM
 
 on:
   push:
@@ -17,6 +17,14 @@ jobs:
       run: |
         sudo apt update
         sudo apt install -y make git build-essential pkg-config libpng-dev
+
+    - name: Install RGBDS
+      run: |
+        git clone https://github.com/gbdev/rgbds.git
+        cd rgbds
+        make
+        sudo make install
+        cd ..
 
     - name: Build ROM
       run: make
