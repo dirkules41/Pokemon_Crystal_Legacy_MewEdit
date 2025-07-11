@@ -2254,12 +2254,16 @@ MewtwoEvosAttacks:
 MewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 5, CONFUSION
-	db 10, TRANSFORM
-	db 20, MEGA_PUNCH
-	db 30, METRONOME
+	db 6, CONFUSION
+	db 10, SEISMIC_TOSS
+	db 15, ROCK_THROW
+	db 20, FLAME_WHEEL
+	db 25, PSYBEAM
+	db 30, SHADOW_BALL
 	db 40, PSYCHIC_M
 	db 50, ANCIENTPOWER
+	db 60, SACRED_FIRE
+	db 70, EARTHQUAKE
 	db 0 ; no more level-up moves
 
 ChikoritaEvosAttacks:
@@ -2365,8 +2369,6 @@ TotodileEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 5, ANCIENTPOWER
-	db 6, CONFUSION
 	db 7, WATER_GUN
 	db 12, RAGE
 	db 21, BITE
