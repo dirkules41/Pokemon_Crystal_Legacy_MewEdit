@@ -16,12 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt update
-        sudo apt install -y make git build-essential
-        git clone https://github.com/gbdev/rgbds.git
-        cd rgbds
-        make
-        sudo make install
-        cd ..
+        sudo apt install -y make git build-essential pkg-config libpng-dev
 
     - name: Build ROM
       run: make
