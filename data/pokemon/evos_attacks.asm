@@ -2254,6 +2254,7 @@ MewtwoEvosAttacks:
 MewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
+	db 5, CONFUSION
 	db 10, TRANSFORM
 	db 20, MEGA_PUNCH
 	db 30, METRONOME
