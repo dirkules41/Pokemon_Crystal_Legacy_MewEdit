@@ -63,7 +63,7 @@ VenusaurEvosAttacks:
 	db 39, SYNTHESIS
 	db 45, BODY_SLAM
 	db 46, SOLARBEAM
-	db 50, ANCIENTPOWER
+	db 50, SEISMIC_TOSS
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:
@@ -2062,7 +2062,7 @@ OmanyteEvosAttacks:
 	db 18, BUBBLEBEAM
 	db 23, LEER
 	db 27, SPIKE_CANNON
-	db 30, ANCIENTPOWER
+	db 30, SEISMIC_TOSS
 	db 37, PROTECT
 	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2077,7 +2077,7 @@ OmastarEvosAttacks:
 	db 18, BUBBLEBEAM
 	db 23, LEER
 	db 27, SPIKE_CANNON
-	db 30, ANCIENTPOWER
+	db 30, SEISMIC_TOSS
 	db 37, PROTECT
 	db 46, HYDRO_PUMP
 	db 0 ; no more level-up moves
@@ -2093,7 +2093,7 @@ KabutoEvosAttacks:
 	db 19, ABSORB
 	db 25, LEER
 	db 28, SAND_ATTACK
-	db 30, ANCIENTPOWER
+	db 30, SEISMIC_TOSS
 	db 35, MEGA_DRAIN
 	db 37, ENDURE
 	db 43, SWORDS_DANCE
@@ -2110,7 +2110,7 @@ KabutopsEvosAttacks:
 	db 19, ABSORB
 	db 25, LEER
 	db 28, SAND_ATTACK
-	db 30, ANCIENTPOWER
+	db 30, SEISMIC_TOSS
 	db 35, MEGA_DRAIN
 	db 37, ENDURE
 	db 40, SLASH
@@ -2124,7 +2124,7 @@ AerodactylEvosAttacks:
 	db 8, AGILITY
 	db 15, BITE
 	db 22, SUPERSONIC
-	db 29, ANCIENTPOWER
+	db 29, SEISMIC_TOSS
 	db 32, WING_ATTACK
 	db 36, SCARY_FACE
 	db 40, ROCK_SLIDE
@@ -2254,9 +2254,9 @@ MewtwoEvosAttacks:
 MewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 6, CONFUSION
-	db 10, SEISMIC_TOSS
-	db 15, ROCK_THROW
+	db 6, KINESIS
+	db 10, CONFUSION
+	db 15, SEISMIC_TOSS
 	db 20, FLAME_WHEEL
 	db 25, PSYBEAM
 	db 30, SHADOW_BALL
@@ -3326,7 +3326,7 @@ CorsolaEvosAttacks:
 	db 1, BUBBLE
 	db 7, HARDEN
 	db 13, WATER_GUN
-	db 18, ANCIENTPOWER
+	db 18, SEISMIC_TOSS
 	db 19, RECOVER
 	db 23, SPIKES
 	db 25, BUBBLEBEAM
