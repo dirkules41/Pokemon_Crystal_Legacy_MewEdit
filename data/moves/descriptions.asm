@@ -540,8 +540,8 @@ CounterDescription:
 	next "blow double.@"
 
 SeismicTossDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
+	db   "An attack that may"
+	next "cause flinching.@"
 
 StrengthDescription:
 	db   "A powerful physi-"
@@ -641,7 +641,7 @@ ConfusionDescription:
 
 PsychicMDescription:
 	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	next "confuse the foe.@"
 
 HypnosisDescription:
 	db   "May put the foe to"
