@@ -81,7 +81,7 @@ Moves:
 	move SUBMISSION,   EFFECT_RECOIL_HIT,         90, FIGHTING,     100, 25,   0
 	move LOW_KICK,     EFFECT_FLINCH_HIT,         50, FIGHTING,     100, 20,  30
 	move COUNTER,      EFFECT_COUNTER,             1, FIGHTING,     100, 20,   0
-	move SEISMIC_TOSS, EFFECT_LEVEL_DAMAGE,        1, FIGHTING,     100, 20,   0
+	move SEISMIC_TOSS, EFFECT_FLINCH_HIT,         60, ROCK,         100, 20,  10
 	move STRENGTH,     EFFECT_NORMAL_HIT,         80, NORMAL,       100, 15,   0
 	move ABSORB,       EFFECT_LEECH_HIT,          20, GRASS,        100, 25,   0
 	move MEGA_DRAIN,   EFFECT_LEECH_HIT,          40, GRASS,        100, 20,   0
@@ -100,7 +100,7 @@ Moves:
 	move THUNDERBOLT,  EFFECT_PARALYZE_HIT,       95, ELECTRIC,     100, 15,  10
 	move THUNDER_WAVE, EFFECT_PARALYZE,            0, ELECTRIC,     100, 20,   0
 	move THUNDER,      EFFECT_THUNDER,           120, ELECTRIC,      70, 10,  30
-	move ROCK_THROW,   EFFECT_FLINCH_HIT,         60, ROCK,         100, 25,   0
+	move ROCK_THROW,   EFFECT_NORMAL_HIT,         55, ROCK,          95, 25,   0
 	move EARTHQUAKE,   EFFECT_EARTHQUAKE,        100, GROUND,       100, 10,   0
 	move FISSURE,      EFFECT_OHKO,                1, GROUND,        30,  5,   0
 	move DIG,          EFFECT_FLY,                70, GROUND,       100, 20,   0
