@@ -255,7 +255,6 @@ BattleAnimations::
 	dw BattleAnim_BeatUp
 	dw BattleAnim_AuraSphere
 	assert_table_length NUM_ATTACKS + 1
-	dw BattleAnim_252
 	dw BattleAnim_253
 	dw BattleAnim_254
 	dw BattleAnim_SweetScent2
