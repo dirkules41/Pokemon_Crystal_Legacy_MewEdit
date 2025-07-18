@@ -2254,7 +2254,9 @@ MewtwoEvosAttacks:
 MewEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, POUND
-	db 6, KINESIS
+	db 5, AURA_SPHERE
+	db 6, AURA_SPHERE
+	db 7, KINESIS
 	db 10, CONFUSION
 	db 15, SEISMIC_TOSS
 	db 20, FLAME_WHEEL
