@@ -253,6 +253,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_AuraSphere
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_252
 	dw BattleAnim_253
@@ -4596,6 +4597,19 @@ BattleAnim_BeatUp:
 	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 48, $0
 	anim_wait 8
 	anim_call BattleAnim_ShowMon_0
+	anim_ret
+
+BattleAnim_AuraSphere:
+	anim_1gfx ANIM_GFX_OBJECTS
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect ANIM_BG_CYCLE_BGPALS_INVERTED, $0, $4, $0
+	anim_sound 6, 2, SFX_METRONOME
+	anim_obj ANIM_OBJ_SWIFT, 64, 88, $4
+	anim_wait 4
+	anim_obj ANIM_OBJ_SWIFT, 64, 72, $4
+	anim_wait 4
+	anim_obj ANIM_OBJ_SWIFT, 64, 76, $4
+	anim_wait 64
 	anim_ret
 
 BattleAnimSub_Drain:
